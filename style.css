@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
   background-color: rgb(46, 47, 70);
   transition: 0.5s;
@@ -38,12 +40,13 @@ ul li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14vw;
-  height: 24vh;
+  width: 20vw;
+  height: 30vh;
   border: solid rgb(42, 45, 87) 2px;
   border-radius: 15px;
   background-color: rgb(0, 0, 0);
   box-shadow: 3px 3px 2px 1px rgb(46, 47, 70);
+  font-size: 2.5vw;
 }
 .channelLink a {
   text-align: center;
@@ -51,4 +54,44 @@ ul li:hover {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: 'Noto Sans', sans-serif;
+  transition: 0.5s;
+}
+.channelLink a:hover {
+  text-shadow: 5px 5px rgb(51, 75, 99);
+  color: inherit;
+}
+.bottomFooter {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  height: 10em;
+  text-align: center;
+  padding-top: 5em;
+  font-family: 'Poppins', sans-serif;
+  margin: 2vw;
+  transition: 0.5s;
+}
+.channels {
+  margin: 1vw;
+}
+.channels h1 {
+  text-align: center;
+  color: rgb(219, 22, 22);
+  text-shadow: rgb(219, 22, 22) 1px 0 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+.storys h1 {
+  text-align: center;
+  color: rgb(211, 210, 210);
+  text-shadow: rgb(211, 210, 210) 1px 0 2x;
+  font-family: 'Open Sans', sans-serif;
+}
+.videos h1 {
+  text-align: center;
+  color: rgb(255, 162, 162);
+  text-shadow: rgb(255, 162, 162) 1px 0 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 2.5em;
 }

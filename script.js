@@ -14,3 +14,20 @@ function navbarhoverout() {
 
 navbar.addEventListener("pointerenter", navbarhover);
 navbar.addEventListener("pointerleave", navbarhoverout);
+
+function footerhover() {
+  bottomFooter.style.backgroundColor = 'rgb(0, 0, 0, 0.1)';
+  for (var x = 0; x < bottomFooter.children.length; x++) {
+    bottomFooter.children[x].style.color = 'rgb(255, 255, 255, 0.1)';
+  }
+}
+function footerhoverout() {
+  bottomFooter.style.backgroundColor = 'rgb(0, 0, 0)';
+  for (var z = 0; z < bottomFooter.children.length; z++) {
+    bottomFooter.children[z].style.color = 'rgb(255, 255, 255)';
+  }
+}
+for (var i = 0; i < bottomFooter.children.length; i++) {
+  bottomFooter.children[i].addEventListener('pointerenter', footerhover)
+  bottomFooter.children[i].addEventListener('pointerleave', footerhoverout)
+}
