@@ -32,7 +32,7 @@ for (var i = 0; i < bottomFooter.children.length; i++) {
   bottomFooter.children[i].addEventListener('pointerleave', footerhoverout)
 }
 
-var storyslist = [['https://www.youtube.com/watch?v=94ENNlF_05k', 'Delete Google from Your Life Now']];
+var storyslist = [];
 var videoslist = [['https://www.youtube.com/watch?v=94ENNlF_05k', 'Delete Google from Your Life Now']];
 var youtubechannelslist = [['https://www.youtube.com/user/thejuicemedia/featured', 'The Juice Media'], ['https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q', 'The Hated One']];
 
