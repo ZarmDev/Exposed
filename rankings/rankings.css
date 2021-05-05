@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  background-color: rgb(46, 47, 70);
+  transition: 0.5s;
+}
+.navbar {
+  background-color: black;
+  border-radius: 5px;
+  font-size: 1em;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  transition: 0.5s;
+}
+ul li {
+  margin: 2vw;
+  transition: 0.5s;
+  padding: 2vw;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.2vw;
+}
+ul li:hover {
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.bottomFooter {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  height: 10em;
+  text-align: center;
+  padding-top: 5em;
+  font-family: 'Poppins', sans-serif;
+  /* margin: 2vw; */
+  transition: 0.5s;
+  width: 100%;
+  font-size: 2vw;
+}
+.bottomFooter p {
+  transition: 0.5s;
+}

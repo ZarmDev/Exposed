@@ -31,6 +31,10 @@ ul li {
   font-family: 'Noto Sans', sans-serif;
   font-size: 2.2vw;
 }
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
 ul li:hover {
   background-color: white;
   border-radius: 5px;
