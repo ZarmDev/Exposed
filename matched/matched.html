@@ -4,22 +4,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="rankings.css" rel="stylesheet" type="text/css" />
+    <link href="matched.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
   </head>
   <body>
     <div class="navbar">
       <ul>
         <li><a href="https://Exposed.zarmdev.repl.co/index.html">Home</a></li>
         <li><a href="https://Exposed.zarmdev.repl.co/rankings/rankings.html">Rankings</a></li>
-        <li><a href="https://Exposed.zarmdev.repl.co//.html">Matched</a></li>
-        <li><a href="https://Exposed.zarmdev.repl.co//.html">Feedback</a></li>
-      </ul>
+        <li><a href="https://Exposed.zarmdev.repl.co/matched/matched.html">Matched</a></li>
+        <li><a href="https://Exposed.zarmdev.repl.co/feedback/feedback.html">Feedback</a></li>
+        </ul>
+    </div>
+    <!-- Dropdown Location -->
+    <div class="location">
+    <select>
+      <option disabled>Continents</option>
+      <option>Europe</option>
+      <option>America</option>
+      <option>Asia</option>
+      <option>Africa</option>
+      </select>
+      <p>OR</p>
+    <button id="glocate">Be specific to city</button>
+    </div>
+    <div class="subject">
+      <select id="selectSubject">
+        <option disabled>Subject</option>
+      </select>
+    </div>
+    <div class="storys">
+      <h1>Matched Story's</h1>
+    </div>
+    <div class="videos">
+      <h1>Matched Video's</h1>
+    </div>
+    <div class="channels">
+      <h1>Matched Youtube Channels</h1>
     </div>
     <footer class="bottomFooter">
       <!-- A better way is it group these and then use the hover functions but i'm lazy lol -->
       <p> Copyright (C) 2007 Free Software Foundation, Inc. <br></p>
       <p>Owned by <a href="https://github.com/ZarmDev">ZarmDev</a></p>
     </footer>
-    <script src="rankings.js"></script>
+    <script src="matched.js"></script>
   </body>
 </html>
