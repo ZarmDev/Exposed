@@ -9,3 +9,5 @@ New ideas/fixes:
 -Add channels/storys/videos descriptions
 
 -Rename storys to articles
+
+-Bias levels
