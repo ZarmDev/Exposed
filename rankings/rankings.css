@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
   background-color: rgb(46, 47, 70);
   transition: 0.5s;
@@ -59,4 +60,24 @@ ul li a {
 }
 .rankingLists {
   color: white;
+  margin-left: 10%;
+  list-style-type: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+.rankingLists h1 {
+  display: inline-block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Lato', sans-serif;
+}
+.rankingLists i {
+  font-size: 3vw;
+  margin: 2vw;
+}
+.rankingLists li {
+  font-size: 1.5vw;
 }
