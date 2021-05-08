@@ -59,7 +59,7 @@ ul li:hover {
   transition: 0.5s;
 }
 .channelLink:hover {
-  padding: 1.5vw;
+  padding: 1vw;
 }
 .channelLink a {
   position: relative;

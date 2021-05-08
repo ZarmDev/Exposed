@@ -11,3 +11,12 @@ New ideas/fixes:
 -Rename storys to articles
 
 -Bias levels
+
+-Preview Story's, video's and channels
+
+-Consistent UI for articles (my current UI isn't very favorable)
+
+-Rankings progress bar next to each
+li
+
+-Rankings possibility to use dropdown to remove need to scroll down so long

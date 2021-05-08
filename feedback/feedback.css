@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body {
   background-color: rgb(46, 47, 70);
   transition: 0.5s;
@@ -83,4 +84,12 @@ ul li a {
   box-shadow: 6px 6px 2px 1px rgba(103, 103, 190, 0.527);
   background-color: rgb(180, 179, 179);
   cursor: pointer;
+}
+#linkFeedback {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  font-size: 2vw;
+}
+#linkFeedback a {
+  color: rgb(184, 184, 255);
 }
