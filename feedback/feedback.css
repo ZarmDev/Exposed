@@ -102,3 +102,6 @@ ul li a {
 .bottomFooter i:hover {
   transform: rotate(180deg);
 }
+.navbar ul li i {
+  margin-left: 1vw;
+}
