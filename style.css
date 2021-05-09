@@ -64,7 +64,6 @@ ul li:hover {
 .channelLink a {
   position: relative;
   top: 25%;
-  font-size: 1em;
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: 'Noto Sans', sans-serif;
@@ -129,4 +128,13 @@ h1:hover {
 }
 .bottomFooter p {
   transition: 0.5s;
+}
+.bottomFooter i {
+  font-size: 4vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  transition: 0.5s;
+}
+.bottomFooter i:hover {
+  transform: rotate(180deg);
 }

@@ -35,7 +35,7 @@ for (var i = 0; i < bottomFooter.children.length; i++) {
   bottomFooter.children[i].addEventListener('pointerleave', footerhoverout)
 }
 
-var rankingListsArray = [['Most Climate Action', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi'], ['Most Climate Action', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi', '1. Hello', '2. Hi']];
+var rankingListsArray = [['10 Corrupt Nations', 'Somalia', 'South Sudan', 'Syria', 'Yemen', 'Afghanistan', 'Equatorial Guinea', 'Sudan', 'Venezuela', 'North Korea', 'Democratic Republic of the Congo']];
 
 
 
@@ -45,13 +45,13 @@ window.toggled = false;
 
 function hideDropdown(dropdown) {
   if (window.toggled === false) {
-    for (var hd = 0; hd < document.getElementsByClassName(`dropdown${window.rankTrackDiv}`).length; hd++) {
+    for (var hd = 0; hd < document.getElementsByClassName(`dropdown${dropdown}`).length; hd++) {
       document.getElementsByClassName(`dropdown${dropdown}`)[hd].style.display = 'none';
     }
     document.getElementsByTagName('i')[dropdown].style = `transform: rotate(180deg); margin-bottom: 2vw;`;
     window.toggled = true;
   } else {
-    for (var hd = 0; hd < document.getElementsByClassName(`dropdown${window.rankTrackDiv}`).length; hd++) {
+    for (var hd = 0; hd < document.getElementsByClassName(`dropdown${dropdown}`).length; hd++) {
       document.getElementsByClassName(`dropdown${dropdown}`)[hd].style.display = '';
     }
     document.getElementsByTagName('i')[dropdown].style = `transform: rotate(0deg); margin-bottom: 2vw;`;

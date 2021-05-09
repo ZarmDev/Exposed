@@ -93,3 +93,12 @@ ul li a {
 #linkFeedback a {
   color: rgb(184, 184, 255);
 }
+.bottomFooter i {
+  font-size: 4vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  transition: 0.5s;
+}
+.bottomFooter i:hover {
+  transform: rotate(180deg);
+}
